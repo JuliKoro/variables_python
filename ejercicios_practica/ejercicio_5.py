@@ -19,4 +19,7 @@ palabra_2 = str(input())
 # De la primera palabra tome las primeras tres letras, utilice el operador :
 # De la segunda palabra tome las primeras dos letras, utilice el operador :
 # Formar una nueva palabra con los recortes solicitados
+combinacion = palabra_1[:3] + palabra_2[:2]
+
 # Imprima en pantalla los resultados
+print("La combinación entre ", palabra_1, " y ", palabra_2, " es ", combinacion)
