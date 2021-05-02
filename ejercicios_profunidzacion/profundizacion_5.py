@@ -38,3 +38,20 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+
+#Ingreso de datos
+print('\nIngrese su nombre completo, por favor: ')
+nombre_completo = str(input())
+
+#Conversión de los string
+#Todo minúsculas
+minuscula = nombre_completo.lower()
+print('Nombre completo con todas las letras en minúsculas: ',minuscula)
+
+#Todo MAYÚSCULAS
+mayuscula = nombre_completo.upper()
+print('Nombre completo con todas las letras en MAYÚSCULAS: ', mayuscula)
+
+#Primera letra con mayúscula
+capital = nombre_completo.capitalize()
+print('Nombre completo con solo la primer letra en MAYÚSCULA: ',capital)
