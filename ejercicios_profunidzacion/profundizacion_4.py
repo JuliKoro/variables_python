@@ -46,3 +46,20 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Comencemos a ponernos serios')
 # Empezar aquí la resolución del ejercicio
+print('\nEste programa determina si dos personas son parientes.')
+
+#Ingreso de datos
+print('Ingrese el nombre completo de la Persona nro. 1: ')
+persona_1 = str(input())
+print('Ingrese el nombre completo de la Persona nro. 2: ')
+persona_2 = str(input())
+
+#Extracción del apellido
+apellido_2 = persona_2.split(' ')
+
+pariente = apellido_2[-1] in persona_1
+if pariente == True:
+  print('\n',persona_1,' y ',persona_2,'son parientes.')
+
+else:
+  print('\n',persona_1,' y ',persona_2,'no son parientes.')
