@@ -53,5 +53,6 @@ mayuscula = nombre_completo.upper()
 print('Nombre completo con todas las letras en MAYÚSCULAS: ', mayuscula)
 
 #Primera letra con mayúscula
-capital = nombre_completo.capitalize()
+nombre, apellido = nombre_completo.split(" ")
+capital = nombre.capitalize() + " " + apellido.capitalize()
 print('Nombre completo con solo la primer letra en MAYÚSCULA: ',capital)
