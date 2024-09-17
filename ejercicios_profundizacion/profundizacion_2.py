@@ -51,6 +51,5 @@ altura = float(input())
 
 #Impresión de datos
 print('\nDatos ingresados: ')
-print('Nombre completo: ',nom_completo,', DNI: ',dni)
-print('Nombre completo: ',nom_completo,', Edad: ',edad,' años, Altura: ',altura,'m.')
-
+print('Nombre completo: ', nom_completo, ', DNI: ', dni)
+print('Nombre completo: ', nom_completo, ', Edad: ', edad, ' años, Altura: ', "{:.2f}".format(altura), 'm.')
