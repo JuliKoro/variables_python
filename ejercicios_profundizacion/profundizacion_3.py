@@ -60,4 +60,4 @@ padre_2 = padre_2.split(' ')
 
 #Formar nombre completo del hijo
 nom_completo = hijo + ' ' + padre_1[-1] + ' ' + padre_2[-1]
-print('El nombre completo del hijo es ',nom_completo)
+print('El nombre completo del hijo es ', nom_completo)
