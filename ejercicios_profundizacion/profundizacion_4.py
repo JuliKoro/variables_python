@@ -55,9 +55,9 @@ print('Ingrese el nombre completo de la Persona nro. 2: ')
 persona_2 = str(input())
 
 #Extracción del apellido
-apellido_2 = persona_2.split(' ')
+nombre_2, apellido_2 = persona_2.split(' ')
 
-pariente = apellido_2[-1] in persona_1
+pariente = apellido_2 in persona_1
 if pariente == True:
   print('\n',persona_1,' y ',persona_2,'son parientes.')
 
